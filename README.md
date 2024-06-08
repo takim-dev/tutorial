@@ -1,3 +1,2 @@
-#All my tutorial
-
-##Tempat semua tutorial yang berguna
+# Tutorial
+Tempat Semua tutorial yang saya kumpulkan
