@@ -28,3 +28,11 @@
 
 > Lakukan hal yang sama untuk versi php berbeda dengan folder apache
 > tersendiri & jangan lupa atur port
+
+
+##Permasalahan Extension yang tidak terload dengan benar 
+- **;extension=intl** to this **extension=intl**
+- edit php.ini
+> ; On windows:
+> extension_dir="E:\xampp\php\ext"
+- I found a way to do that which works for me. What I did is to copy the all the files containing this name icu****.dll from my php directory into the Apache bin directory then restart my server. The icu****.dll files are up to 4 in my own php directory.
