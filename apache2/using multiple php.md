@@ -41,6 +41,6 @@
 
 ## Permasalahan Ketika Web yang working malah Not Found
 - atur konfig apache pada **conf/httpd.conf**
-> <Directory "/path/to/document/root/">
->  	AllowOverride All
-> </Directory>
+<Directory "/path/to/document/root/">
+  	AllowOverride All
+</Directory>
