@@ -38,3 +38,9 @@
 > extension_dir="E:\xampp\php\ext"
 - permasalahan extension intl tidak aktif coba cara ini
 > I found a way to do that which works for me. What I did is to copy the all the files containing this name icu****.dll from my php directory into the Apache bin directory then restart my server. The icu****.dll files are up to 4 in my own php directory.
+
+## Permasalahan Ketika Web yang working malah Not Found
+- atur konfig apache pada **conf/httpd.conf**
+> <Directory "/path/to/document/root/">
+>  	AllowOverride All
+> </Directory>
