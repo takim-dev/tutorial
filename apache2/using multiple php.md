@@ -48,4 +48,4 @@
 ## Permasalahan Curl Fatal error: Uncaught Error: Call to undefined function curl_init()
 > I was able to finally solve this issue by finding a file in my PHP root folder called libssh2.dll and copy/paste into the Apache bin folder. Once I did that, curl is now enabled, and I no longer get the error in question. I'm getting other errors, but that's for another question.
 
--Copy file **libssh2.dll** yang ada di folder php ke folder **apache/bin**
+- Copy file **libssh2.dll** yang ada di folder php ke folder **apache/bin**
